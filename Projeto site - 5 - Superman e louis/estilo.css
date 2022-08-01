@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.topo{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.topo div{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo span{
+    margin: 0 30px;
+}
+
+.topo a{
+    color: #4710c1;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+
+}
+.secao p {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px 0;
+}
+
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.capa{
+    
+    width: 100%;
+}
+.galeria-fotos{
+    display: flex;
+    overflow-x: scroll;
+    margin: 30px 0;
+    
+}
+
+.galeria-fotos img{
+    width: 315px;
+    margin: 10px;
+
+}
+
+h3{
+    text-align: center;
+    margin: 30px 0;;
+}
+
+.rodape{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: #4710c1;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.informacao {
+    margin: 15px auto;
+}
