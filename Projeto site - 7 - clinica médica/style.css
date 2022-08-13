@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links-topo{
+    margin-left: 15px;
+    padding: 10px;
+}
+.links-topo a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+.links-topo a:hover{
+    color: rgb(53, 109, 109);
+}
+.topo{
+    width: 100%;
+    background-color: rgb(86, 223, 223);
+}
+.secao-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.limite-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.box-visao-geral {
+    position: relative;
+    background-image: url('../assets/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .box-visao-geral-titulo{
+    height: 100%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-visao-geral h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin: 0;
+  }
+
+
+
+
+  .secao2, .secao3, .secao4{
+    text-align: center;
+  }
+
+  .secao2-conteudo1{
+    margin-top: 30px;
+    color: grey;
+  }
+  .secao2-conteudo1 p{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+
+  .secao2-conteudo2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .secao2-subcontent{
+    margin-left: 20px;
+    font-weight: 500;
+    color: grey;
+  }
+  .secao2-subcontent{
+    margin-left: 20px;
+    font-weight: 500;
+    color: grey;
+    text-align: justify;
+  }  
+  .secao2-subcontent h3{
+    margin-bottom: 20px;
+  }
+
+
+
+.secao3-conteudo1
+{
+  margin-top: 40px;
+  color: grey;
+}
+
+  .secao3-conteudo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .secao3-conteudo1 p{
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+.card{
+  box-shadow: 0px 0px 10px 1px black;
+  margin: 20px;
+  text-transform: uppercase;
+}
+.card img{
+  width: 100%;
+  max-width: 300px;
+}
+figcaption{
+  padding: 10px;
+
+}
+.secao3-conteudo3{
+  margin-top: 30px;
+}
+.secao3-conteudo3 a{
+  padding: 10px;
+  width: 30px;
+  background-color: rgb(74, 190, 190);
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.secao4-conteudo1{
+  margin-top: 50px;
+  color: grey;
+
+}
+.secao4-conteudo1 p{
+  width: 600px;
+  margin: 30px auto;
+}
+
+.rodape{
+  background-color: darkcyan;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+}
+.rodape p{
+  padding: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .secao2-conteudo2 img {
+    display: none;
+  }
+
+
+
+  .secao3-conteudo1 {
+    margin-top: 40px;
+    color: grey;
+  }
+
+  .secao3-conteudo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  iframe{
+    padding: 20px;
+  }
+
+
+}
+
+@media (max-width: 460px){
+  .links-topo {
+      padding: 10px;
+      color: #fff;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 400px;
+      border-top: 1px solid grey;
+    }
+    .secao-topo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center
+    }
+
+
+
+
+
+    .box-visao-geral {
+      position: relative;
+      background-image: url('../assets/recepcao.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 200px;
+      max-width: 460px;
+    }
+    
+    .box-visao-geral-titulo{
+      height: 100%;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .box-visao-geral h1 {
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 25px;
+      margin: 0;
+    }
+
+
+  
+    .secao4-conteudo1 p, .secao3-conteudo1 p{
+      width: 400px;
+      margin: 30px auto;
+    }
+
+  
+}
